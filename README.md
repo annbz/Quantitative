@@ -1,6 +1,6 @@
 # Quantitative
 
-**Here **are** some Topics:
+**Here are some Topics:**
 
 - Sector performance ranking
 From 2018 to 2022

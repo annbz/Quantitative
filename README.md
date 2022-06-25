@@ -2,7 +2,7 @@
 
 **Here are some Topics:**
 
-- Sector performance ranking
+**- Sector performance ranking**
 
 Which sector is the best performance from 2018 to 2022
 1. Technology
@@ -11,7 +11,7 @@ Which sector is the best performance from 2018 to 2022
 
 Worst : Financial
 
-- Gold Calendar Effect
+**- Gold Calendar Effect**
 
 Which month is the best average return form 2006 to 2022
 1. January

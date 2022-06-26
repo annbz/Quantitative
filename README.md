@@ -25,3 +25,10 @@ Which one is the best return in weekday form 2006 to 2022
 1. Friday
 2. Monday
 3. Thursday
+
+- Scan stock from set50
+
+1. uptrend
+2. downtrend
+3. sideway
+4. reversal

@@ -1,0 +1,26 @@
+# Machine Learning
+
+## Here are some Topics:
+
+- Model
+1. Arima (Autoregressive Integrated Moving Average)
+model Stat
+predict data: time series data
+data: trend, seasonal
+concept: try to remove noise from time series to reduce error
+model = ARIMA(p,d,q)
+p = lag time
+d = Stationary of data >> data: mean and variance(consistent)
+q = ma >> lag time (lag time of error)
+optimum order(p,d,q)
+model.fit()
+MSE
+
+2. XGBoost (Extreme Gradient Boosting)
+machine learning model
+predict data: Classification, regression
+forecast: time
+
+3. LSTM (Long Short-Term Memory)
+Neural Network - deep learning
+predict data: (forecast) time series data

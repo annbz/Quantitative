@@ -1,0 +1,66 @@
+Note
+Subject: Algorithmic Trading - Machine Learning & Quant Strategies
+
+Challenges to applying ML in trading:
+(Reflexivity)
+- hard to predict returns or prices.
+- quite hard to predict return signs.
+- hard to predict economic indicator.
+- Not so hard to predict volatility.
+
+Workflow Process
+1. Collect and prepare the data
+2. Develop a hypothesis for a strategy
+3. Coding the model: train and test the model (machine learning in trading)
+4. Backtest the strategy
+-------------------------------------------------------------------------------
+
+Project 1: Unsupervised Learning Trading Strategy 
+
+Unsupervised Learning in Trading
+- using machine learning techniques to analyze financial data without any labeled or predefined target variable.
+- focuses on extracting insights from data
+
+Here's how unsupervised learning is applied in trading:
+- Clustering
+- Dimensionality Reduction
+- Anomaly Detection
+- Market Regime Detection
+- Portfolio Optimization
+
+Do
+1. Download SP500 stocks prices Data
+2. Calculate technical indicators and features
+3. Aggregate on monthly level and filter (only top 150 most liquid stocks)
+4. Calculate monthly returns
+5. Download Fama-French factors and calculate rolling
+6. K-means clustering model
+7. select assets based on the cluster
+8. Visualize the portfolio returns and compare to SP500 returns
+-------------------------------------------------------------------------------
+
+Project 2: Twitter Sentiment Investing Strategy
+
+focuses on analyzing how people feel about stocks, industries, market. (public sentiment)
+
+Do
+1. Download NASDAQ stocks twitter sentiment data.
+2. Calculate a quantitative feature of the engagement ratio in Twitter of each stock. 
+3. Every month rank all stocks and construct an equal-weight portfolio.
+4. Compare it against NASDAQ performance.
+-------------------------------------------------------------------------------
+
+Project 3: Intraday Strategy Using GARCH Model
+
+use technical analysis, real-time data, and risk management techniques to make quick decisions, aiming to capitalize on market volatility.
+
+Do
+1. Load simulated daily data and simulated 5-min data.
+2. Define fn to fit GARCH model and predict 1-day ahead volatility in a rolling window.
+3. Calculate prediction premium and form a daily signal from it.
+4. Merge with intraday data and calculate intraday indicators to form the intraday signal.
+5. Generate the position entry and hold until the end of the day.
+6. Calculate final strategy returns.
+-------------------------------------------------------------------------------
+  
+

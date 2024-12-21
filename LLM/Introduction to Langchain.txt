@@ -1,0 +1,12 @@
+Introduction to Langchain
+LangChain is a framework for developing applications powered by language models
+
+GitHub: https://github.com/langchain-ai/langchain
+Docs: https://python.langchain.com/docs/get_started
+
+Outlines
+1.Main components -- Model, Prompt Template, Output Parser
+2.Chains
+3.Memory
+4.Retriever (RAG)
+5.Evaluation
